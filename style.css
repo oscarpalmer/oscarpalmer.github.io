@@ -1,0 +1,51 @@
+*{padding:0;margin:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;border:none;outline:none;list-style:none;text-decoration:none}html{font-size:100%;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{-webkit-font-smoothing:subpixel-antialiased;font-smoothing:subpixel-antialiased;text-rendering:optimizeLegibility}[hidden]{display:none}article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,video{display:inline-block}audio:not([controls]){display:none;height:0}a,a *{-moz-transition:.2s ease;-o-transition:.2s ease;-webkit-transition:.2s ease;transition:.2s ease}a:active,a:hover{outline:none}a:focus{outline:thin dotted}abbr[title]{border-bottom:1px dotted}abbr,dfn{cursor:help}b,strong{font-weight:bold}blockquote,p{max-width:32em}blockquote p:first-child,blockquote p:only-child{margin:0 0 1em;text-indent:-2em}blockquote p:last-child::after,blockquote p:only-child::after,q::after{content:"\201D"}blockquote p:first-child::before,blockquote p:only-child::before,q::before{content:"\201C"}blockquote p:first-child::before,blockquote p:only-child::before{width:2em;display:inline-block;text-align:right}code,kbd,pre,samp{font-family:monospace, serif}dfn{font-style:italic}hr{height:1px;display:block;margin:1em 0;background:#ddd;clear:both}img{display:block}li{padding:0 0 0 1.5em;position:relative;counter-increment:num}li::before{display:block;position:absolute;left:0}mark{background:#ffb;color:#865}ol,ul{counter-reset:num}ol li::before{content:counter(num, decimal) "."}ul li::before{content:"\2022"}pre{white-space:pre-wrap}q q::after{content:"\2019"}q q::before{content:"\2018"}small,sub,sup{font-size:smaller}sub,sup{line-height:1}sub{vertical-align:text-bottom}sup{vertical-align:text-top}
+
+body {
+  margin: 5%;
+  background: #fefefe;
+  color: #6f6b67;
+  font-family: Lucida Grande, Verdana, sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+a {
+  color: blue;
+}
+
+a:hover {
+  color: green;
+}
+
+a:active {
+  color: red;
+}
+
+h1, h2 {
+  margin-left: -.1em;
+  color: #4f4b47;
+}
+
+h1 {
+  margin-bottom: 1em;
+  font-size: 2em;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+h2 {
+  font-size: 1em;
+}
+
+i {
+  color: #afaba7;
+  font-size: 11px;
+}
+
+p, ul {
+  margin: 2em 0;
+}
+
+ul ul {
+  margin: .5em 0;
+}
